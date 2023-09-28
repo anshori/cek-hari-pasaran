@@ -42,7 +42,7 @@
     </div>
     <div class="row mt-2">
       <div class="col text-center">
-        <small class="text-secondary">unsorry@2023</small>
+        <small class="text-secondary">unsorry@2023 | <a href="https://github.com/anshori/cek-hari-pasaran" class="text-decoration-none" target="_blank" title="GitHub Repository"><i class="fa-brands fa-github"></i> Source Code</a></small>
       </div>
     </div>
   </div>
