@@ -54,13 +54,13 @@
       $tanggal = $_GET['tanggal'];
       $hari = date('l', strtotime($tanggal));
       $arrHari = array(
-        'Sunday' => 'Minggu',
-        'Monday' => 'Senin',
-        'Tuesday' => 'Selasa',
-        'Wednesday' => 'Rabu',
-        'Thursday' => 'Kamis',
-        'Friday' => 'Jumat',
-        'Saturday' => 'Sabtu'
+        'Sunday' => 'Minggu (5)',
+        'Monday' => 'Senin (4)',
+        'Tuesday' => 'Selasa (3)',
+        'Wednesday' => 'Rabu (7)',
+        'Thursday' => 'Kamis (8)',
+        'Friday' => 'Jumat (6)',
+        'Saturday' => 'Sabtu (9)'
       );
 
       $arrBulan = array(
@@ -78,7 +78,7 @@
         'Desember'
       );
 
-      $arrPasaran = array('Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi');
+      $arrPasaran = array('Pahing (9)', 'Pon (7)', 'Wage (4)', 'Kliwon (8)', 'Legi (5)');
       
       // Sample hari pasaran tanggal 1 januari 1900 adalah 'Pahing'
       $sampleTglJawa = 01;
